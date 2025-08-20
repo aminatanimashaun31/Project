@@ -68,7 +68,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start --host 0.0.0.0 --port $PORT",
+    "start": "http-server build -p $PORT -a 0.0.0.0",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -92,6 +92,7 @@
     ]
   },
   "devDependencies": {
-    "@types/minimatch": "^5.1.2"
+    "@types/minimatch": "^5.1.2",
+    "http-server": "^14.1.1"
   }
 }
