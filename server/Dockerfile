@@ -13,7 +13,7 @@ EXPOSE 5050
 
 ENV NODE_ENV=production
 ENV PORT=5050
-ENV ATLAS_URI=${ATLAS_URI}
+
 
 RUN addgroup -g 1001 -S nodejs && \
     adduser -S nodejs -u 1001
