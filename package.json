@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-express-rest-api",
+  "version": "1.0.0",
+  "description": "This repository contains the sample application for the [MongoDB and Express.js REST API tutorial](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminatanimashaun31/Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminatanimashaun31/Project/issues"
+  },
+  "homepage": "https://github.com/aminatanimashaun31/Project#readme"
+}
